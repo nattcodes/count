@@ -1,0 +1,57 @@
+@import url(./font.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+ 
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  transition: .3s ease-in-out;
+}
+:root {
+  --Poppins: "Poppins", cursive;
+}
+
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1{
+  padding: 0;
+  margin: 0;
+  font-size: 15rem;
+  font-family: var(--Poppins);
+  font-weight: bolder;
+  margin-bottom: -1rem;
+  margin-top: -3rem;
+}
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: .6rem;
+  padding: 1rem 1.5rem;
+  margin: 0 .5rem;
+  font-family: var(--Poppins);
+  font-size: 1rem;
+  color: white;
+}
+.start{
+  background: rgb(39, 122, 247);
+}
+.start:hover{
+  background: rgba(39, 122, 247, 0.842);
+}
+.reset{
+  background: rgb(247, 39, 39);
+}
+.reset:hover{
+  background: rgba(247, 39, 39, 0.767);
+}
